@@ -1,0 +1,29 @@
+{
+  "name": "todo-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.ts"
+  },
+  "author": "taoufik",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server-express": "^2.23.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "graphql": "^15.5.0",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.1",
+    "mongoose": "^5.12.5",
+    "nodemon": "^2.0.7",
+    "tslint": "^6.1.3",
+    "tslint-config-airbnb": "^5.11.2",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^4.2.4"
+  }
+}

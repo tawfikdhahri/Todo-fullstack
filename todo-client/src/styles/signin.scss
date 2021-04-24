@@ -1,0 +1,63 @@
+.signin {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  &__card {
+    box-shadow: 0px 16px 48px rgba(0, 0, 0, 0.16);
+    height: 300px;
+    width: 400px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    margin-top: 150px;
+    input {
+      height: 50px;
+      border: 10px;
+      border: 1px solid $grey1;
+      border-radius: 8px;
+      padding: 10px;
+      box-sizing: border-box;
+      margin-bottom: 40px;
+    }
+    button {
+      height: 50px;
+      border: 10px;
+      border-radius: 8px;
+      color: $white;
+      background-color: #1e49af;
+      font-size: 18px;
+      font-weight: 600;
+    }
+  }
+}
+// .loader {
+//   border: 16px solid #f3f3f3;
+//   border-radius: 50%;
+//   border-top: 16px solid #3498db;
+//   width: 120px;
+//   height: 120px;
+//   -webkit-animation: spin 2s linear infinite; /* Safari */
+//   animation: spin 2s linear infinite;
+// }
+
+// /* Safari */
+// @-webkit-keyframes spin {
+//   0% {
+//     -webkit-transform: rotate(0deg);
+//   }
+//   100% {
+//     -webkit-transform: rotate(360deg);
+//   }
+// }
+
+// @keyframes spin {
+//   0% {
+//     transform: rotate(0deg);
+//   }
+//   100% {
+//     transform: rotate(360deg);
+//   }
+// }
