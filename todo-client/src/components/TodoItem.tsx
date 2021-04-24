@@ -122,7 +122,7 @@ function TodoItem({ item }: Props): ReactElement {
     setShow(!show);
   }, [show]);
 
-  const addCommentItem = useCallback(() => {
+  const addCommentItem = () => {
     addComment &&
       addComment({
         variables: {
@@ -133,7 +133,7 @@ function TodoItem({ item }: Props): ReactElement {
         console.log(res);
         setComment("");
       });
-  }, [comment, item, addComment]);
+  };
 
   const isOwner = useMemo(() => {
     if (me) {
@@ -187,7 +187,7 @@ function TodoItem({ item }: Props): ReactElement {
       <p className="desc">{item.description}</p>
 
       <div className="comments-wrapper">
-        <button onClick={toggelComments}>
+        <button className="show-button" onClick={toggelComments}>
           {!show ? "Show Comments" : "Hide Comments"}
         </button>
         {show && (
@@ -224,4 +224,4 @@ function TodoItem({ item }: Props): ReactElement {
   );
 }
 
-export default TodoItem;
+export default React.memo(TodoItem);

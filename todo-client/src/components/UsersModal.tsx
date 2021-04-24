@@ -75,4 +75,4 @@ const UsersModal = ({
   );
 };
 
-export default UsersModal;
+export default React.memo(UsersModal);

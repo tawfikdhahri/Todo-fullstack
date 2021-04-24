@@ -118,7 +118,7 @@
       }
 
       .comments-wrapper {
-        button {
+        .show-button {
           width: 150px;
           height: 40px;
           border: none;
@@ -134,6 +134,7 @@
           flex-direction: row;
           width: 100%;
           padding: 0;
+          margin-bottom: 15px;
           input {
             width: 70%;
             height: 40px;
@@ -143,16 +144,15 @@
             box-sizing: border-box;
           }
 
-          // button {
-          //   background-color: $green;
-          //   border: none;
-          //   border-radius: 5px;
-          //   width: 20%;
-          //   height: 40px;
-          //   margin-left: 5%;
-          //   color: $white;
-          //   font-weight: bold;
-          // }
+          button {
+            background-color: $green;
+            border: none;
+            border-radius: 5px;
+            width: 25%;
+            height: 40px;
+            color: $white;
+            font-weight: bold;
+          }
         }
         .comments-list {
           .comment-item {
