@@ -36,10 +36,12 @@ cd todo-client && yarn
 cd todo-server && yarn
 ```
 
-Second Step :run back and fron
+Second Step :run back and fronT
 
 ```
 Front : yarn start
+```
 
+```
 back: yarn dev
 ```
